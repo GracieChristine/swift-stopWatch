@@ -28,6 +28,7 @@ class ViewController: UIViewController {
     @IBAction func reset(_ sender: Any) {
         timer.invalidate();
         time = 0;
+        label.text = String(time);
     }
     
     @objc func action() {
